@@ -5,7 +5,7 @@ public class continuacioncilos {
         boolean noHaTerminado = true;
         int numero = 10;
         while (noHaTerminado){
-        System.out.println("numero;" + numero);
+        System.out.println("numero:" + numero);
         numero = numero + 1;
         if (numero >= 10){
             noHaTerminado = false;
